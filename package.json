@@ -1,0 +1,29 @@
+{
+  "name": "home-work---10",
+  "version": "1.0.0",
+  "description": "home-work abt Asynchrony",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiamat/home-work---10.git"
+  },
+  "keywords": [],
+  "author": "Sofii",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sofiamat/home-work---10/issues"
+  },
+  "homepage": "https://github.com/sofiamat/home-work---10#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "simple-notify": "^1.0.6"
+  }
+}

@@ -1,0 +1,200 @@
+.btn {
+  background-color: #e7e8e7;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* task-1 */
+
+.task-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 100px;
+}
+
+/* -------------------------------------------- */
+/* task-2 */
+
+.task-2 {
+  margin-top: 50px;
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 100px;
+}
+
+.task-2-main {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.item {
+  position: absolute;
+}
+
+.item-1 {
+  background-color: rgba(128, 0, 128, 0.628);
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px rgb(255, 255, 255) dotted;
+  top: 0;
+  left: 0;
+  transition:
+    left 1s ease,
+    transform 1s ease,
+    background-color 1s ease;
+}
+
+.item-1-boom {
+  top: 0;
+  left: 85%;
+  transform: scale(1.9);
+  background-color: #6b4e71;
+}
+
+.item-2 {
+  background-color: rgba(0, 0, 0, 0.719);
+  border-radius: 2px;
+  border: 2px dashed white;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  transition:
+    top 1s ease,
+    transform 1s ease,
+    background-color 1s ease;
+}
+
+.item-2-boom {
+  top: 85%;
+  right: 0;
+  transform: scale(0.5) rotate(45deg);
+  background-color: #a67c52;
+}
+
+.item-3 {
+  width: 67px;
+  height: 67px;
+  background-color: rgb(234, 197, 133);
+  border-radius: 30px 10px;
+  border: 4px dotted white;
+  bottom: 0;
+  right: 0;
+  transition:
+    right 1s ease,
+    transform 1s ease,
+    background-color 1s ease;
+}
+
+.item-3-boom {
+  bottom: 0;
+  right: 85%;
+  transform: scale(0.7);
+  background-color: #4f5551;
+}
+
+.item-4 {
+  background-color: rgba(0, 79, 128, 0.628);
+  width: 55px;
+  height: 55px;
+  border-radius: 20px;
+  border: 2px rgb(255, 255, 255) dotted;
+  bottom: 0;
+  left: 0;
+  transition:
+    bottom 1s ease,
+    transform 1s ease,
+    background-color 1s ease;
+}
+
+.item-4-boom {
+  bottom: 85%;
+  left: 0;
+  transform: scale(1.3) rotate(95deg);
+  background-color: #d8c9b8;
+}
+
+/* -------------------------------------------- */
+
+/* task-3 */
+
+.task-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.task-3-title {
+  margin: 50px 0 20px 0;
+}
+
+.task-3-btn {
+  margin-bottom: 20px;
+}
+
+.task-3-btn-none {
+  pointer-events: none;
+}
+
+.task-3-meta {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #4f5551;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.meta-btn {
+  position: absolute;
+  background-color: #4f5551;
+  width: 45px;
+  height: 45px;
+}
+
+#timer-3 {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.meta-game-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 35px;
+}
+
+#points {
+  font-weight: 500;
+}
+.points-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* -------------------------------------------- */
+/* task-4 */
+/* -------------------------------------------- */
